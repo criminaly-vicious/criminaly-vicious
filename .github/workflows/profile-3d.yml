@@ -1,0 +1,33 @@
+name: GitHub Profile 3D Contributions
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:17 UTC = 03:17 in Sao Paulo (UTC-3)
+    - cron: '17 6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v5
+
+      - name: Render the 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: criminaly-vicious
+
+      - name: Commit generated SVGs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add profile-3d-contrib/
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh 3D contribution graph'
+            git push
+          fi

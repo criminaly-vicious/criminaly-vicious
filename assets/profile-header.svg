@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="286" viewBox="0 0 1200 286" role="img" aria-labelledby="title desc">
+  <title id="title">Pedro Negri</title>
+  <desc id="desc">Software engineering, artificial intelligence and product development</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080D16" />
+      <stop offset="0.58" stop-color="#0D1423" />
+      <stop offset="1" stop-color="#131827" />
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58A6FF" />
+      <stop offset="1" stop-color="#A78BFA" />
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58A6FF" stop-opacity="0.26" />
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.02" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#253348" stroke-width="0.65" opacity="0.43"/>
+    </pattern>
+    <clipPath id="clip"><rect x="0" y="0" width="1200" height="286" rx="14" /></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="286" fill="url(#bg)"/>
+    <rect x="690" width="510" height="286" fill="url(#grid)" />
+    <path d="M-10 0H1200" stroke="#35435F" stroke-width="1" opacity=".7" />
+    <path d="M0 285H1200" stroke="#35435F" stroke-width="1" opacity=".7" />
+    <rect x="0" y="0" width="7" height="286" fill="url(#line)" />
+    <rect x="61" y="35" width="11" height="11" rx="2" fill="#58A6FF" />
+    <path d="M64 40h5m-2-2v5" stroke="#0C1421" stroke-width="1" />
+    <text x="87" y="46" fill="#B5C2D7" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">ENGINEERING • AI • PRODUCTS</text>
+    <text x="59" y="136" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="67" font-weight="800" letter-spacing="-1.5">PEDRO NEGRI</text>
+    <rect x="61" y="160" width="326" height="3" rx="1.5" fill="url(#line)" />
+    <text x="61" y="206" fill="#CFD9E7" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="500">Co-Founder &amp; CTO at Centra</text>
+    <text x="61" y="239" fill="#889AB4" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing=".3">São Paulo, Brazil</text>
+    <g opacity=".9" fill="none">
+      <circle cx="974" cy="149" r="110" stroke="#354363" stroke-width="1.2" />
+      <circle cx="974" cy="149" r="78" stroke="#4B5D82" stroke-width="1.2" />
+      <circle cx="974" cy="149" r="44" stroke="#7381A6" stroke-width="1.3" />
+      <path d="M795 215L846 164L892 185L938 118L982 146L1040 92L1100 127L1146 64" stroke="url(#line)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M795 215L846 164L892 185L938 118L982 146L1040 92L1100 127L1146 64L1146 285L795 285Z" fill="url(#shine)" stroke="none" />
+      <path d="M846 164L846 260M938 118L938 260M1040 92L1040 260M1100 127L1100 260" stroke="#536583" stroke-dasharray="4 8" opacity=".52" />
+    </g>
+    <g fill="#0E1728" stroke-width="2">
+      <circle cx="846" cy="164" r="5" stroke="#58A6FF" />
+      <circle cx="938" cy="118" r="5" stroke="#89A5FF" />
+      <circle cx="1040" cy="92" r="5" stroke="#A78BFA" />
+      <circle cx="1100" cy="127" r="5" stroke="#A78BFA" />
+    </g>
+    <text x="1148" y="255" font-family="Segoe UI, Arial, sans-serif" fill="#7D8BA6" font-size="12" letter-spacing="1" text-anchor="end">BUILD / SHIP / LEARN</text>
+  </g>
+</svg>
