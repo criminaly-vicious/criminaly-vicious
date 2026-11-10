@@ -1,83 +1,100 @@
 <!-- Profile README for github.com/criminaly-vicious -->
 
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Pedro Negri · Software Engineering, Artificial Intelligence & Product" width="100%" />
+  <img src="./assets/profile-header.svg" alt="Pedro Negri. Co-founder and CTO at Centra. I build software that reads language to understand people." width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://centra.ia.br"><img src="https://img.shields.io/badge/Centra-Co--Founder_%26_CTO-58A6FF?style=flat-square&labelColor=151B23" alt="Co-Founder & CTO at Centra" /></a>
-  <a href="https://github.com/criminaly-vicious"><img src="https://img.shields.io/badge/GitHub-criminaly--vicious-F0F6FC?style=flat-square&logo=github&logoColor=white&labelColor=151B23" alt="GitHub profile" /></a>
-  <img src="https://img.shields.io/badge/Based_in-S%C3%A3o_Paulo-A78BFA?style=flat-square&labelColor=151B23" alt="Based in São Paulo, Brazil" />
+  <a href="https://centra.ia.br"><img src="https://img.shields.io/badge/Centra-Co--founder_%26_CTO-B3121E?style=flat-square&labelColor=15131A" alt="Co-founder and CTO at Centra" /></a>
+  <a href="https://landingleads.com.br"><img src="https://img.shields.io/badge/LandingLeads-Founder-8E8790?style=flat-square&labelColor=15131A" alt="Founder of LandingLeads" /></a>
+  <img src="https://img.shields.io/badge/Based_in-S%C3%A3o_Paulo-5F5A64?style=flat-square&labelColor=15131A" alt="Based in São Paulo, Brazil" />
 </p>
 
-### Hello, I'm Pedro.
+### Hi, I'm Pedro.
 
-I'm a **software developer and Co-Founder & CTO at [Centra](https://centra.ia.br)**. I build products at the intersection of **software engineering, applied AI, and entrepreneurship**.
+I'm the co-founder and CTO of **[Centra](https://centra.ia.br)**, a Brazilian edtech for socioemotional intelligence in schools. Students write short reflections, our engine **ASATA** reads them for the signals a busy adult can miss, and a human specialist reviews every signal before anything reaches the school.
 
-My work focuses on turning complex problems into practical systems. Lately, I've been exploring **language models, machine learning fundamentals, AI coding workflows, and developer tooling**.
+I also run **[LandingLeads](https://landingleads.com.br)**, a studio that builds conversion landing pages on a monthly plan, and I'm a student at **Inteli**. Most of what I build sits where language, software and people meet.
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <strong>Building</strong><br />
-      AI-powered products, software platforms, and useful developer tools.
+      The Centra platform and a new version of the ASATA engine.
     </td>
     <td width="50%" valign="top">
       <strong>Exploring</strong><br />
-      LLMs, small language models, PyTorch, and systems that make developers more effective.
+      Small language models for Portuguese, multi-agent architectures and agentic coding with Claude Code.
     </td>
   </tr>
 </table>
 
 ### Selected work
 
-| Project | What it does | Link |
+| Project | What it is | Link |
 | :--- | :--- | :--- |
-| **Centra** | AI-assisted tools that support student well-being and school decision-making. | [Website ↗](https://centra.ia.br) |
-| **ctx** | Local-first CLI that generates tailored context briefs for Claude, Cursor, and Codex from Git history and project notes. | [Repository ↗](https://github.com/criminaly-vicious/Lineora) |
-| **FileFlow** | An experimental desktop file manager interface built with Electron, React, and TypeScript. | [Repository ↗](https://github.com/criminaly-vicious/FileFlow) |
+| **Centra** | Socioemotional screening for schools. Students write, the school receives a reviewed picture of who needs attention, and no decision is ever made by an algorithm alone. | [Website ↗](https://centra.ia.br) |
+| **ASATA** | The analysis engine behind Centra: a lexical layer plus a semantic layer built on LLMs, tuned to how Brazilian teenagers actually write. | Private |
+| **LandingLeads** | Conversion landing pages sold as a monthly plan, with maintenance and changes included. *Leads pousam. Negócios decolam.* | [Website ↗](https://landingleads.com.br) |
+| **voice-cloner** | A Claude Code skill that learns how a person or brand writes from real samples and turns it into a reusable voice guide. | [Repository ↗](https://github.com/criminaly-vicious/voice-cloner) |
+| **ctx** | A local-first CLI that turns Git history and a short, human-written project context into briefs for Claude, Cursor and Codex. | [Repository ↗](https://github.com/criminaly-vicious/Lineora) |
+
+### How I work
+
+- **The machine reads, a person decides.** Anything that touches a student goes through human review before it becomes an action.
+- **Privacy is architecture, not a checkbox.** Student texts are pseudonymized, and schools never receive them raw, only the reviewed triage and an action plan.
+- **Problems first, stack second.** Centra came out of a year of research and about fifty meetings with high schools, not out of a model looking for a use case.
+- **Vision is the scarce part.** AI keeps making execution cheaper, so the edge is knowing what deserves to be built.
 
 ### Toolbox
 
-**Languages & foundations**
+**Product and platform**
 
-![Python](https://img.shields.io/badge/Python-151B23?style=flat-square&logo=python&logoColor=F0F6FC)
-![TypeScript](https://img.shields.io/badge/TypeScript-151B23?style=flat-square&logo=typescript&logoColor=F0F6FC)
-![JavaScript](https://img.shields.io/badge/JavaScript-151B23?style=flat-square&logo=javascript&logoColor=F0F6FC)
-![SQL](https://img.shields.io/badge/SQL-151B23?style=flat-square&logo=postgresql&logoColor=F0F6FC)
+![TypeScript](https://img.shields.io/badge/TypeScript-15131A?style=flat-square&logo=typescript&logoColor=F1EADF)
+![Next.js](https://img.shields.io/badge/Next.js-15131A?style=flat-square&logo=nextdotjs&logoColor=F1EADF)
+![React](https://img.shields.io/badge/React-15131A?style=flat-square&logo=react&logoColor=F1EADF)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-15131A?style=flat-square&logo=tailwindcss&logoColor=F1EADF)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15131A?style=flat-square&logo=postgresql&logoColor=F1EADF)
+![Supabase](https://img.shields.io/badge/Supabase-15131A?style=flat-square&logo=supabase&logoColor=F1EADF)
+![Vercel](https://img.shields.io/badge/Vercel-15131A?style=flat-square&logo=vercel&logoColor=F1EADF)
 
-**Product & infrastructure**
+**AI and data**
 
-![React](https://img.shields.io/badge/React-151B23?style=flat-square&logo=react&logoColor=F0F6FC)
-![Next.js](https://img.shields.io/badge/Next.js-151B23?style=flat-square&logo=nextdotjs&logoColor=F0F6FC)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-151B23?style=flat-square&logo=tailwindcss&logoColor=F0F6FC)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-151B23?style=flat-square&logo=postgresql&logoColor=F0F6FC)
-![Supabase](https://img.shields.io/badge/Supabase-151B23?style=flat-square&logo=supabase&logoColor=F0F6FC)
-![Vercel](https://img.shields.io/badge/Vercel-151B23?style=flat-square&logo=vercel&logoColor=F0F6FC)
+![Python](https://img.shields.io/badge/Python-15131A?style=flat-square&logo=python&logoColor=D42A3A)
+![Claude](https://img.shields.io/badge/Claude-15131A?style=flat-square&logo=anthropic&logoColor=D42A3A)
+![PyTorch](https://img.shields.io/badge/PyTorch-15131A?style=flat-square&logo=pytorch&logoColor=D42A3A)
+![NumPy](https://img.shields.io/badge/NumPy-15131A?style=flat-square&logo=numpy&logoColor=D42A3A)
+![Jupyter](https://img.shields.io/badge/Jupyter-15131A?style=flat-square&logo=jupyter&logoColor=D42A3A)
+![n8n](https://img.shields.io/badge/n8n-15131A?style=flat-square&logo=n8n&logoColor=D42A3A)
 
-**AI & experimentation**
+**Desktop and systems**
 
-![NumPy](https://img.shields.io/badge/NumPy-151B23?style=flat-square&logo=numpy&logoColor=F0F6FC)
-![PyTorch](https://img.shields.io/badge/PyTorch-151B23?style=flat-square&logo=pytorch&logoColor=F0F6FC)
-![Jupyter](https://img.shields.io/badge/Jupyter-151B23?style=flat-square&logo=jupyter&logoColor=F0F6FC)
+![Rust](https://img.shields.io/badge/Rust-15131A?style=flat-square&logo=rust&logoColor=F1EADF)
+![Tauri](https://img.shields.io/badge/Tauri-15131A?style=flat-square&logo=tauri&logoColor=F1EADF)
+![Svelte](https://img.shields.io/badge/Svelte-15131A?style=flat-square&logo=svelte&logoColor=F1EADF)
 
-<sub>Tech listed here reflects both professional use and ongoing learning, not claims of equal proficiency.</sub>
+<sub>What I use every day sits next to what I'm still learning. The list is not a claim of equal depth.</sub>
 
 ### Contribution landscape
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D visualization of GitHub contributions by criminaly-vicious" width="100%" />
+  <img src="./profile-3d-contrib/profile-crimson.svg" alt="3D visualization of GitHub contributions by criminaly-vicious" width="100%" />
 </p>
 
-<sub>Generated from my GitHub contribution history and refreshed daily with GitHub Actions.</sub>
+<sub>Rendered from my contribution history and refreshed daily by GitHub Actions.</sub>
+
+### Off the clock
+
+I spend a lot of time on philosophy of mind, the old question of what it means to understand another person, which is not far from what Centra tries to do with a paragraph a student wrote. My favorite film is *Arrival*, a story about learning a language until it changes how you think. The handle is a nod to **CRIMINALLY VICIOUS**, a music project of mine, and the playlist leans on Deftones, Type O Negative, HIM and Eagles.
 
 ### Connect
 
 <p>
-  <a href="https://www.linkedin.com/in/pedro-negri-840519335/"><img src="https://img.shields.io/badge/LinkedIn-151B23?style=flat-square&logo=linkedin&logoColor=58A6FF" alt="LinkedIn" /></a>
-  <a href="https://x.com/illegalblades"><img src="https://img.shields.io/badge/X-151B23?style=flat-square&logo=x&logoColor=F0F6FC" alt="X" /></a>
-  <a href="mailto:pedronegri38@gmail.com"><img src="https://img.shields.io/badge/Email-151B23?style=flat-square&logo=gmail&logoColor=A78BFA" alt="Email" /></a>
-  <a href="https://centra.ia.br"><img src="https://img.shields.io/badge/Centra-151B23?style=flat-square&logo=googlechrome&logoColor=58A6FF" alt="Centra website" /></a>
+  <a href="https://www.linkedin.com/in/pedro-negri-840519335/"><img src="https://img.shields.io/badge/LinkedIn-Pedro_Negri-2A2630?style=flat-square&labelColor=15131A" alt="LinkedIn" /></a>
+  <a href="https://x.com/illegalblades"><img src="https://img.shields.io/badge/X-@illegalblades-2A2630?style=flat-square&labelColor=15131A" alt="X" /></a>
+  <a href="mailto:pedronegri38@gmail.com"><img src="https://img.shields.io/badge/Email-write_me-B3121E?style=flat-square&labelColor=15131A" alt="Email" /></a>
+  <a href="https://centra.ia.br"><img src="https://img.shields.io/badge/Centra-centra.ia.br-2A2630?style=flat-square&labelColor=15131A" alt="Centra website" /></a>
+  <a href="https://landingleads.com.br"><img src="https://img.shields.io/badge/LandingLeads-landingleads.com.br-2A2630?style=flat-square&labelColor=15131A" alt="LandingLeads website" /></a>
 </p>
 
-<sub>Build things that matter. Keep learning.</sub>
+<p align="center"><sub>Seeking the incomprehensible.</sub></p>
